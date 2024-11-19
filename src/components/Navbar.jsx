@@ -78,9 +78,6 @@ const Navbar = () => {
                 ))}
               </div>
             </div>
-            <a href="#work" className="text-gray-300 hover:text-white transition">Work</a>
-            <a href="#about" className="text-gray-300 hover:text-white transition">About</a>
-            <a href="#contact" className="text-gray-300 hover:text-white transition">Contact</a>
             <button className="bg-primary hover:bg-blue-600 text-white px-6 py-2 rounded-full font-medium transition transform hover:scale-105">
               Get Started
             </button>
@@ -111,8 +108,6 @@ const Navbar = () => {
             ))}
             <div className="w-full h-px bg-white/10 my-2"></div>
             <a href="#work" className="block text-gray-300 hover:text-white transition">Work</a>
-            <a href="#about" className="block text-gray-300 hover:text-white transition">About</a>
-            <a href="#contact" className="block text-gray-300 hover:text-white transition">Contact</a>
             <button className="w-full bg-primary hover:bg-blue-600 text-white px-6 py-2 rounded-full font-medium transition">
               Get Started
             </button>
