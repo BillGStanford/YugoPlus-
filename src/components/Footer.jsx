@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -28,9 +28,11 @@ const Footer = () => {
           
           {/* Social Links */}
           <div>
-
+        <h1 className="text-xl font-bold mb-4">Socials</h1>
             <div className="flex space-x-4">
-
+            <a href="https://www.instagram.com/yugoplus_/" target='blank' className="text-gray-400 hover:text-primary transition">
+                <Instagram size={24} />
+              </a>
             </div>
           </div>
         </div>
