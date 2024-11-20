@@ -6,7 +6,7 @@ import WorkShowcase from './components/WorkShowcase';
 import ContactSection from './components/ContactSection';
 import AboutUsSection from './components/AboutUsSection';
 import Footer from './components/Footer';
-import LoadingScreen from './components/loader/LoadingScreen'; // Import the LoadingScreen
+
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,9 +39,7 @@ function App() {
     return () => clearTimeout(timer); // Clean up the timer on component unmount
   }, []);
 
-  if (loading) {
-    return <LoadingScreen />; // Show the loading screen while loading is true
-  }
+
 
   return (
     <div className="bg-dark">
